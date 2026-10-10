@@ -1,0 +1,6 @@
+,Baseline XGBoost,Tuned XGBoost
+accuracy,0.8845,0.841
+precision,0.1917,0.1599
+recall,0.7612,0.8806
+f1,0.3063,0.2706
+roc_auc,0.9356,0.9432
