@@ -1,0 +1,84 @@
+{
+  "best_model_name": "Logistic Regression",
+  "best_metrics": {
+    "accuracy": 0.855,
+    "precision": 0.17302052785923755,
+    "recall": 0.8805970149253731,
+    "f1": 0.28921568627450983,
+    "roc_auc": 0.9487070596320004
+  },
+  "all_metrics": {
+    "accuracy": {
+      "Logistic Regression": 0.855,
+      "AdaBoost": 0.855,
+      "Gradient Boosting": 0.9685,
+      "CatBoost": 0.8755,
+      "XGBoost": 0.8845,
+      "Decision Tree": 0.8625,
+      "SVM (RBF)": 0.841,
+      "Random Forest": 0.9615,
+      "KNN": 0.968
+    },
+    "precision": {
+      "Logistic Regression": 0.173,
+      "AdaBoost": 0.1711,
+      "Gradient Boosting": 0.5714,
+      "CatBoost": 0.1926,
+      "XGBoost": 0.1917,
+      "Decision Tree": 0.175,
+      "SVM (RBF)": 0.1617,
+      "Random Forest": 0.4405,
+      "KNN": 0.5385
+    },
+    "recall": {
+      "Logistic Regression": 0.8806,
+      "AdaBoost": 0.8657,
+      "Gradient Boosting": 0.2388,
+      "CatBoost": 0.8507,
+      "XGBoost": 0.7612,
+      "Decision Tree": 0.8358,
+      "SVM (RBF)": 0.8955,
+      "Random Forest": 0.5522,
+      "KNN": 0.3134
+    },
+    "f1": {
+      "Logistic Regression": 0.2892,
+      "AdaBoost": 0.2857,
+      "Gradient Boosting": 0.3368,
+      "CatBoost": 0.314,
+      "XGBoost": 0.3063,
+      "Decision Tree": 0.2894,
+      "SVM (RBF)": 0.274,
+      "Random Forest": 0.4901,
+      "KNN": 0.3962
+    },
+    "roc_auc": {
+      "Logistic Regression": 0.9487,
+      "AdaBoost": 0.9464,
+      "Gradient Boosting": 0.9454,
+      "CatBoost": 0.9371,
+      "XGBoost": 0.9356,
+      "Decision Tree": 0.923,
+      "SVM (RBF)": 0.9152,
+      "Random Forest": 0.9053,
+      "KNN": 0.8395
+    }
+  },
+  "tuned_xgb_metrics": {
+    "accuracy": 0.841,
+    "precision": 0.15989159891598917,
+    "recall": 0.8805970149253731,
+    "f1": 0.2706422018348624,
+    "roc_auc": 0.9432403425191682,
+    "cm": [
+      [
+        1623,
+        310
+      ],
+      [
+        8,
+        59
+      ]
+    ]
+  }
+}
